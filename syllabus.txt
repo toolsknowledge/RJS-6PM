@@ -1,0 +1,154 @@
+
+
+
+
+
+
+Syllabus of ReactJS / MERN Stack Development
+--------------------------------------------
+
+1) Introduction to ReactJS
+
+	- what is ReactJS
+
+	- History of ReactJS
+
+	- Differences Between ReactJS, Angular and VueJS
+
+
+2) Installation of Softwares
+
+
+3) Components in ReactJS
+
+	- Stateful Component      (Class Level Components)
+
+	- Stateless Component     (Functional Level Components)
+
+
+4) state  & props
+
+
+5) communication between components
+
+	=> parent component to child component
+
+	=> child component to parent component
+
+
+
+6) Events in ReactJS
+
+	click event
+
+	double click event
+
+	---
+	---
+	---
+
+
+7) MERN Stack Development
+
+	M - MongoDB
+
+	E - ExpressJS   API'S
+
+	R - ReactJS
+
+	N - NodeJS
+
+
+8) State Management
+
+	=> Redux
+
+	=> Thunk
+
+	=> Saga
+
+
+
+9) Component Hooks
+
+
+	=> useState()
+
+	=> useRef()
+
+	=> useEffect()
+
+		----
+		----
+		----
+
+
+10) Forms with Validations
+
+
+
+11) API Calls
+
+	=> axios
+
+
+12) Unit Test Cases  (JEST) 
+
+
+13) DevOps
+
+	Deployment
+
+	CI / CD Process
+
+	Continuos Integration & Continuos Deployment
+
+
+
+
+14) ECommerce Application Development
+
+
+	=> 2 months  2 hrs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
