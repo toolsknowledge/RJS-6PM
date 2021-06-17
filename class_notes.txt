@@ -1,0 +1,232 @@
+Day-1
+=====
+Introduction to ReactJS
+
+    - what is ReactJS
+
+    - installation of ReactJS
+
+    - Virtual DOM
+
+    - Differences Between Angular, React and VueJS
+
+
+=> React is the JS Library.
+
+=> React Given by Facebook.
+
+=> Current Version of ReactJS is "17.X"
+
+=> React Categorized into 3 Subjects.
+
+        1) ReactJS
+
+        2) React Native
+
+        3) React BootStrap
+
+=> ReactJS used to build the web applications.
+
+=> React Native, Used to build the Hybrid Mobile applications.
+
+=> React BootStrap, used to apply the Rich UI to both web applications and mobile applications.
+
+=> we will build ReactJS applications in two ways.
+
+        1) JSX
+
+        2) TSX
+
+=> JSX Stands for JavaScript + XML.
+
+=> JavaScript won't follows the OOPS.
+
+=> TSX Stands for TypeScript + XML.
+
+=> TypeScript is the Programming Language.
+
+=> TypeScript Given by Microsoft.
+
+=> TypeScript follows the OOPS Features.
+
+=> applications of ReactJS
+            whatsapp
+
+            Netflix
+
+            Yahoo Mail
+
+            ----
+            ----
+            ----
+
+Installation of ReactJS
+------------------------
+
+1) download and install NodeJS.
+
+    NodeJS, contain following tools.
+
+            => npm
+
+            => node
+
+            => npx
+
+            ----
+            ----
+            ----
+
+    npm Stands for Node Packaging Manager.
+
+    npm helps to install "reactjs".
+
+    node tool, helps to execute "JavaScript".
+
+    npx stands for "node pckaging runner".
+
+    npx helps to create the environment, to build react applications
+
+website : https://nodejs.org/en/download/
+
+file    : node-v14.17.1-x64.msi
+
+
+2) install yarn.
+
+    yarn tool given by "Facebook".
+
+    yarn tool, used to download the "3rd" party Libraries.
+
+    we will install yarn tool by using following command.
+
+
+    > npm install -g yarn
+
+    -g stands for global installation.
+
+
+3) install create-react-app
+
+    "create-react-app" is the tool provided by "Facebook".
+
+   "create-react-app" tool used to create the "react applications"
+
+    we will install create-react-app tool, by using following command.
+
+    > npm install -g create-react-app
+
+
+4) install visual studio code
+
+    - Visual Studio Code is the IDE, given by Microsoft.
+
+    - Visual Studio Code also called as VSCode.
+
+    - VSCode is the Open Source IDE.
+
+    - VSCode used to build the Angular,ReactJS,VueJS,NodeJS,........
+
+website : https://code.visualstudio.com/docs/?dv=win
+
+file    : VSCodeUserSetup-x64-1.57.0.exe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
