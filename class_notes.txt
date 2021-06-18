@@ -132,6 +132,93 @@ website : https://code.visualstudio.com/docs/?dv=win
 file    : VSCodeUserSetup-x64-1.57.0.exe
 
 
+Day-2
+=====
+Virtual DOM
+
+ - React follows the Virtual DOM.
+
+ - Because of Virtual DOM, React is faster compared to other frameworks.
+
+ - DOM Stands for Document Object Model.
+
+ - when ever HTML Loaded into Browser Engine, automatically Browser Engine Will create Real  DOM.
+
+ - React Never works on Real DOM Directly.
+
+ - Real  DOM Operations Costlier Operations.
+
+ - React, will create exactly two Virtual Copies of Real DOM.
+
+ - when ever change detected, immidiately Virtual DOM1, will identifies the changes.
+
+ - Virtual DOM1 will compare with Virtual DOM2.
+
+ - if any mismatches happens between Virtual DOM1 & Virtual DOM2, automatically Virtual DOM1 will provide following information to Real DOM.
+
+    1) Address of Node Element
+
+    2) Element
+
+    3) Old Value
+
+    4) New Value
+
+
+ - Real DOM will navigate to particular element based on above information and will do the changes in main DOM.
+
+
+Differences Between Angular and React
+======================================
+
+        Angular                                         ReactJS
+
+
+Google                                                  Facebook
+
+
+Framework                                               Library
+
+Framework containes predefined                          Library containes predefined finctionalities
+functionalities, as a developer                         as a developer no need to follow any rules and 
+we must follow rules and regulations                    regulations to use library.
+to use Framework
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
