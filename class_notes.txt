@@ -168,48 +168,87 @@ Virtual DOM
  - Real DOM will navigate to particular element based on above information and will do the changes in main DOM.
 
 
-Differences Between Angular and React
-======================================
 
-        Angular                                         ReactJS
 
+create and execute react application
+====================================
+step 1.
+    create the react application
 
-Google                                                  Facebook
+    > npx create-react-app first-app --template typescript
 
+    - npx stands for node packaging runner.
 
-Framework                                               Library
+    - where "first-app" is the name of the react application
 
-Framework containes predefined                          Library containes predefined finctionalities
-functionalities, as a developer                         as a developer no need to follow any rules and 
-we must follow rules and regulations                    regulations to use library.
-to use Framework
 
+step 2.
+    switch to react application
 
+    > cd first-app
 
 
+step 3.
+    execute the react application
 
+    > yarn start / npm start
 
+    The Default Port Number React Application is 3000.
 
 
+Differences Between Angular Framework and React Library
+=======================================================
 
+            Angular                                     React
 
+    Angular Released By Google                      React Released By Facebook
 
+    Current Version of Angular is Angular12         Current Version of ReactJS is React 18.X
 
+    Angular is the Framework                        ReactJS is the library
 
+    Angular is the Real DOM                         React is the Virtual DOM
 
+    Angular have less performance compared          React have good performance compared to 
+    to React.                                       Angular.
 
 
+    Angular containes Rich Features                 React won't containes Rich Features
 
+    Angular Supports the two way data binding       React Supports the one way data binding
 
+    Application of Angular:                         Application of ReactJS:
+        Gmail                                           whatsapp
+        Paypal                                          Netflix
+        ===                                                 ---
+                                                            ----
+        ===
 
+    we will build Angular Application               We will build React Applications
+    with the help of TypeScript                     with the help of either
+                                                        1) JSX
+                                                        2) TSX
 
 
+component
+=========
+    Reusable portion of complex UI Called as "Component".
 
+    As a React Developer, we can create more than "one" component.
 
+    As a Developer, we can "reuse" these components.
 
 
+*****************************************
+component-app
+            src
+              First.tsx
 
+              index.tsx
 
+            public
+                index.html
+*****************************************
 
 
 
@@ -248,44 +287,7 @@ to use Framework
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
 
 
