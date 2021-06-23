@@ -252,6 +252,27 @@ component-app
 
 
 
+********************************************************
+components-app
+             src
+               Header.tsx
+               Body.tsx
+               Footer.tsx
+
+               index.tsx
+
+             public
+                index.html
+*******************************************************
+
+
+               
+
+
+
+
+
+
 
 
 
