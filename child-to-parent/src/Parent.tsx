@@ -16,11 +16,17 @@ class Parent extends Component<IProps,IState>{
             my_data : arg1
         })
     };
+
+    myFun1 = ()=>{
+        console.log("double clicked here");
+    };
+
     render(){
         return(
             <React.Fragment>
                 <Child key1={this.myFun}></Child> 
-                <h1>{JSON.stringify(this.state.my_data)}</h1>   
+                <h1>{JSON.stringify(this.state.my_data)}</h1> 
+                <button onDoubleClick={this.myFun1}>Double Click</button>  
             </React.Fragment>
         )
     }
