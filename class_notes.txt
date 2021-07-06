@@ -274,6 +274,149 @@ state-app
           index.tsx
 ************************************************************
 
+MERN Stack Development
+----------------------
+M - MongoDB
+
+E - ExpressJS
+
+R - ReactJS
+
+N - NodeJS
+
+                                    ***** MongoDB ******
+    - MongoDB Database is NoSQL Database.
+
+    - MongoDB Database Supports JSON.
+
+    - MongoDB Database is light weight Database.
+
+
+        SQL                                             NoSQL
+===================================================================================
+Oracle, MySQL, SQLServer                            MongoDB, CassandraDB
+
+Databases                                           Databases
+
+Tables                                              Collections
+
+Primary Key                                         _id
+
+records                                             documents
+====================================================================================
+
+Database Details
+================
+
+Database Name : rjs-6pm
+
+Collection Name :   user_details
+
+user_name : admin
+
+password : admin
+
+connection url : mongodb+srv://admin:admin@cluster0.jgnmk.mongodb.net/rjs-6pm?retryWrites=true&w=majority
+
+
+Backend Implementation
+======================
+    - NodeJS is the Backend Technology.
+
+    - NodeJS used to build the "servers".
+
+    - NodeJS, used to build the Rest API'S by using ExpressJS.
+
+        GET
+
+        POST
+
+        PUT
+
+        DELETE
+
+        HEAD
+
+        ----
+        ----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
