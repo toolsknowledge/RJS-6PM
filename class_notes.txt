@@ -276,6 +276,7 @@ state-app
 
 MERN Stack Development
 ----------------------
+
 M - MongoDB
 
 E - ExpressJS
@@ -284,61 +285,169 @@ R - ReactJS
 
 N - NodeJS
 
-                                    ***** MongoDB ******
+MongoDB
+=======
     - MongoDB Database is NoSQL Database.
 
-    - MongoDB Database Supports JSON.
+    - MongoDB Database supports "JSON".
 
     - MongoDB Database is light weight Database.
 
+    - MongoDB Database supports cloud environment in the form of a "MongoDB Atlas".
 
-        SQL                                             NoSQL
-===================================================================================
-Oracle, MySQL, SQLServer                            MongoDB, CassandraDB
+
+SQL                                                     NoSQL
+=========================================================================================
+
+Oracle, MySQL, SQLServer                            MongoDB, CassandraDB,.....
+
 
 Databases                                           Databases
 
+
 Tables                                              Collections
 
-Primary Key                                         _id
 
 records                                             documents
-====================================================================================
+
+
+primary Key                                         _id
+==========================================================================================
 
 Database Details
-================
-
+----------------
 Database Name : rjs-6pm
 
-Collection Name :   user_details
+Collection Name : user_details
 
-user_name : admin
+user name       :   admin
 
-password : admin
+password :  admin
 
 connection url : mongodb+srv://admin:admin@cluster0.jgnmk.mongodb.net/rjs-6pm?retryWrites=true&w=majority
 
 
-Backend Implementation
-======================
-    - NodeJS is the Backend Technology.
+Implement the backend
+---------------------
+    we will use NodeJS as Backend Technology.
 
-    - NodeJS used to build the "servers".
 
-    - NodeJS, used to build the Rest API'S by using ExpressJS.
+=> create the directory
 
-        GET
+    Ex.
+        server
 
-        POST
+=> switch to server directory
 
-        PUT
+    > cd server
 
-        DELETE
 
-        HEAD
+=> download the Libraries by using yarn tool
 
-        ----
-        ----
+        1) express
+
+        2) cors
+
+        3) mongodb
+
+        4) dotenv
+
+        > yarn add express cors mongodb dotenv --save
+
+=> create the server
+
+        server.js
+
+
+=> start the server
+
+    > node server
+
+=> test the rest api
+
+    Postman
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
