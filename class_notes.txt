@@ -369,6 +369,99 @@ Implement the backend
 
 
 
+--------------------------------------
+1) create the react application
+
+    > npx create-react-app mern-app --template typescript
+
+
+2) switch to react application
+
+    > cd mern-app
+
+
+3) download following Libraries
+
+    1) axios
+
+    2) dotenv
+
+
+        > yarn add axios dotenv --save
+
+
+4) create the Component
+
+        App.tsx
+
+
+
+Backend Deployment
+==================
+
+1) create the repository
+
+
+
+2) create the application in aws account
+
+
+3) create the CI/CD process
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
