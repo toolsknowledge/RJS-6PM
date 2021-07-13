@@ -412,6 +412,63 @@ Backend Deployment
 
 
 
+MERN Stack Development
+
+M - MongoDB
+
+E - ExpressJS
+
+R - ReactJS
+
+N - NodeJS
+
+
+step 1.
+    deploy the images in s3 bucket
+
+        https://mernapp.s3.us-east-2.amazonaws.com/p1.jpg
+
+        https://mernapp.s3.us-east-2.amazonaws.com/p2.jpg
+
+        https://mernapp.s3.us-east-2.amazonaws.com/p3.jpg
+
+        https://mernapp.s3.us-east-2.amazonaws.com/p4.jpg
+
+        https://mernapp.s3.us-east-2.amazonaws.com/p5.jpg
+
+        https://mernapp.s3.us-east-2.amazonaws.com/p6.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
