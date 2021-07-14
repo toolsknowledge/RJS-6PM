@@ -439,6 +439,85 @@ step 1.
         https://mernapp.s3.us-east-2.amazonaws.com/p6.jpg
 
 
+2) make the Database ready
+
+        Database name   :   ecommerce
+
+        Collection Name  : products
+
+        connection url : mongodb+srv://admin:admin@cluster0.jgnmk.mongodb.net/ecommerce?retryWrites=true&w=majority
+
+
+
+3) create the server directory
+
+    Ex.
+          mern_server
+
+
+4) switch to mern_server
+
+    > cd mern_server
+
+
+5) download the node modules
+
+       => express
+
+       => mongodb
+
+       => cors
+
+        - express framework used to develop the rest services
+
+                Ex.
+                        GET
+                        POST
+                        PUT
+                        DELETE
+
+        - mongodb module used to connect to mongodb Database.
+
+        - cors module used to enable the ports communication.
+
+        > yarn add express mongodb cors --save
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
