@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { loginContext } from "../context/LoginContext";
 function Profile(){
+    
     const {username} = useContext(loginContext);
     return(
         <React.Fragment>

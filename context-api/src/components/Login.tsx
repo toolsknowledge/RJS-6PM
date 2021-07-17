@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
+import { loginContext } from "../context/LoginContext";
 function Login(){
+    const {setShowProfile,setUsername}  = useContext(loginContext);
     
     return(
         <React.Fragment>
@@ -11,8 +13,7 @@ function Login(){
                 <input type="password" placeholder="Password...."></input>
                 <br></br><br></br>
                 <button onClick={()=>{setShowProfile(true)}}>Login</button>
-                <br></br><br></br>
-                {showProfile && <h1>{username}</h1>}
+               
             </fieldset>
         </React.Fragment>
     )
