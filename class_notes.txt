@@ -411,7 +411,7 @@ Backend Deployment
 
 
 
-
+=========================================================================================
 MERN Stack Development
 
 M - MongoDB
@@ -481,6 +481,111 @@ step 1.
         - cors module used to enable the ports communication.
 
         > yarn add express mongodb cors --save
+
+
+6) develop rest api by using nodejs
+
+    server.js
+
+
+7) start the node server
+
+    > node server
+
+
+8) test the rest api by using Postman
+
+    => http://localhost:1234/products
+
+9) create the react application
+
+    > npx create-react-app mern-frontend 
+
+10) swtch to react application
+
+    > cd mern-frontend
+
+
+11) download the axios library
+
+    > yarn add axios --save
+
+
+12) push the server code github
+
+
+13) create application in AWS
+
+        ElasticBeanStalk
+
+
+14) create the CI/CD Process
+
+        CodePipeline
+
+
+15) configure the cloud url to react application
+
+        => http://mernserver-env.eba-dhqkdnmp.us-east-2.elasticbeanstalk.com/products
+
+
+16) download and install aws cli
+
+        website : https://aws.amazon.com/cli/
+
+        file    : AWSCLIV2.msi
+
+
+17) prepare the production build
+
+    > npm run build
+
+
+18) push production build to s3 bucket
+
+    => http://mernappex.s3-website.us-east-2.amazonaws.com
+
+    bucket policies
+
+    {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Sid": "PublicReadGetObject",
+                "Effect": "Allow",
+                "Principal": "*",
+                "Action": "s3:GetObject",
+                "Resource": "arn:aws:s3:::deploy-app-ashokit/*"
+            }
+        ]
+    }
+
+
+19) create the user credentials
+
+    IAM
+
+20) edit the package.JSON
+
+    "deploy": "aws s3 cp --recursive ./build s3://mernappex"
+
+21) execute the following commands
+
+        > aws configure
+
+        > npm run build
+
+        > npm run deploy
+
+
+
+
+
+
+
+
+
+
 
 
 

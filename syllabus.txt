@@ -108,7 +108,6 @@ Syllabus of ReactJS / MERN Stack Development
 
 14) ECommerce Application Development
 
-
 	=> 2 months  2 hrs
 
 
