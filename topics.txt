@@ -1,46 +1,17 @@
-1) Single Page Applications
+=> Middleware
 
-        Routing
+    - Redux
 
-        Routing Parameters
+    - Saga
 
-2) Hooks
+    - Thunk
 
-    => useState
+=> forwardRef()
 
-    => useEffect
+   useCallBack()
 
-    => useRef
+=> unit test cases
 
-    => Context API
+=> charts
 
-3) Functional Components
-
-4) Issues in Miniproject
-
-5) AWS Hosting
-
------------------------------------------------------------------------------
-1) download the library
-
-    > cd spa-app1
-
-    > yarn add react-router-dom @types/react-router-dom --save
-
-
-2) create the target components
-
-    Pageone
-
-    Pagetwo
-
-    Pagethree
-
-
-3) create the App Component
-
-
-
-
-
-
+=> Forms with validations

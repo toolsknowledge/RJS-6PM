@@ -578,6 +578,28 @@ step 1.
         > npm run deploy
 
 
+------------------------------------------------------
+State Management
+
+=> create the directory
+
+    Ex.
+        redux-ex
+
+=> switch to redux-ex
+
+    > cd redux-ex
+
+
+=> download the redux library
+
+    > yarn add redux --save
+
+
+=> prepare the redux application
+
+    => bank.js
+
 
 
 
