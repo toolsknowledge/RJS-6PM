@@ -602,6 +602,134 @@ State Management
 
 
 
+                                    Rest API Call with Middleware
+
+1) create the database
+
+    database details
+    ****************
+
+    database name : RJS-06
+
+    collection name : products
+
+    connection url : mongodb+srv://admin:admin@cluster0.jgnmk.mongodb.net/RJS-06?retryWrites=true&w=majority
+
+
+2) create the backend folder
+
+
+3) switch to backend folder
+
+    > cd backend
+
+
+4) download the node modules
+
+    => express
+
+    => dotenv
+
+    => mongodb
+
+    => cors
+
+    > yarn add express dotenv mongodb cors --save
+
+5) create the .env file
+
+6) create the rest api
+
+    server.js
+
+7) start the node server
+
+    > node server
+
+8) test the following rest api call
+
+    > http://localhost:8080/products
+
+
+9) create the react application
+
+    > npx create-react-app thunk-ex --template typescript
+
+
+10) switch to react application
+
+    > cd thunk-ex
+
+
+11) download the libraries
+
+    => redux      @types/redux 
+
+    => react-redux  @types/react-redux
+
+    => redux-thunk   @types/redux-thunk
+
+    => axios        @types/axios
+
+
+    > yarn add redux @types/redux react-redux @types/react-redux redux-thunk @types/redux-thunk axios @types/axios --save
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
