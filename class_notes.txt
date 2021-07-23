@@ -675,10 +675,35 @@ State Management
     > yarn add redux @types/redux react-redux @types/react-redux redux-thunk @types/redux-thunk axios @types/axios --save
 
 
+12) Implement the thunk middleware
+
+        => model
+
+        => types
+
+        => actions
+
+        => reducer
+
+        => store
+
+        => component
+
+*************************************************
+thunk-ex
+       src
+          model
+            Product.tsx
+************************************************* 
+    finally "Product" model is ready     
 
 
-
-
+***************************************************
+thunk-ex
+       src
+         types  
+           ProductActions.tsx
+***************************************************
 
 
 
