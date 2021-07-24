@@ -705,6 +705,84 @@ thunk-ex
            ProductActions.tsx
 ***************************************************
 
+    finally "ProductsActionTypes" is ready with
+
+    1) ProductsLoading
+
+    2) ProductsLoadingSuccess
+
+    3) ProductsLoadingFail
+
+    4) ProductsActionTypes
+
+
+********************************************************
+thunk-ex
+        src
+           actions
+                ProductsActionImplementation.tsx
+********************************************************
+
+    finally "ProductsActions" ready.
+
+
+********************************************************
+thunk-ex
+       src
+         reducer
+            ProductsReducer.tsx
+********************************************************
+
+    finally "productReducer" is ready.
+
+
+
+*******************************************************
+thunk-ex
+       src
+         index.tsx
+*******************************************************
+
+
+***********************************************************
+thunk-ex
+       src
+         App.tsx
+***********************************************************
+
+
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
